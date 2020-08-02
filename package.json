@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://zoeyzou.github.io/team-grouper/.",
   "dependencies": {
     "@reduxjs/toolkit": "^1.3.4",
     "@storybook/addon-a11y": "^5.3.18",
@@ -45,6 +46,7 @@
     "eslint-plugin-react": "7.19.0",
     "eslint-plugin-react-hooks": "3.0.0",
     "fork-ts-checker-webpack-plugin": "^4.1.3",
+    "gh-pages": "^3.1.0",
     "husky": "^4.2.5",
     "jest-axe": "^3.4.0",
     "lint-staged": "^10.1.3",
@@ -62,7 +64,9 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "prettier": "prettier --write .",
-    "lint": "eslint  --quiet --ext .js,.jsx,.ts,.tsx src"
+    "lint": "eslint  --quiet --ext .js,.jsx,.ts,.tsx src",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
