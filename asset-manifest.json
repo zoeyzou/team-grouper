@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/team-grouper/static/js/main.8343671a.chunk.js",
+    "main.js.map": "/team-grouper/static/js/main.8343671a.chunk.js.map",
+    "runtime-main.js": "/team-grouper/static/js/runtime-main.6acb3001.js",
+    "runtime-main.js.map": "/team-grouper/static/js/runtime-main.6acb3001.js.map",
+    "static/js/2.e02b8385.chunk.js": "/team-grouper/static/js/2.e02b8385.chunk.js",
+    "static/js/2.e02b8385.chunk.js.map": "/team-grouper/static/js/2.e02b8385.chunk.js.map",
+    "index.html": "/team-grouper/index.html",
+    "precache-manifest.04cf0ff85675e1efa6510d801a2c6845.js": "/team-grouper/precache-manifest.04cf0ff85675e1efa6510d801a2c6845.js",
+    "service-worker.js": "/team-grouper/service-worker.js",
+    "static/js/2.e02b8385.chunk.js.LICENSE.txt": "/team-grouper/static/js/2.e02b8385.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6acb3001.js",
+    "static/js/2.e02b8385.chunk.js",
+    "static/js/main.8343671a.chunk.js"
+  ]
+}
