@@ -80,7 +80,10 @@ function App() {
       </button>
       <ol>
         {groups.map((group) => (
-          <li key={Math.random()} style={{ border: '1px solid yellow' }}>
+          <li
+            key={Math.random()}
+            style={{ border: '1px solid orange', margin: '20px', padding: '20px' }}
+          >
             <ul>
               {group.map((member) => (
                 <li key={member}>{member}</li>
